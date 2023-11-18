@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading DayOfWeek,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file /modules/java.base/java/time/DayOfWeek.class is broken, reading aborted with class java.lang.RuntimeException[0m
+[0m[[0m[31merror[0m] [0m[0mbad constant pool index: 0 at pos: 3967[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/andrefilho/IdeaProjects/widgetSemana/src/main/scala/MensagemDiaSemanaGUI.scala:14:33 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m    [33mval[0m [36mnomeDiaSemana[0m = diaAtual.getDisplayName(TextStyle.FULL, Locale([31m"pt"[0m, [31m"BR"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             value getDisplayName is not a member of java.time.DayOfWeek[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/andrefilho/IdeaProjects/widgetSemana/src/main/scala/MensagemDiaSemanaGUI.scala:14:58 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m    [33mval[0m [36mnomeDiaSemana[0m = diaAtual.getDisplayName(TextStyle.FULL, Locale([31m"pt"[0m, [31m"BR"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         value FULL is not a member of object java.time.format.TextStyle[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/andrefilho/IdeaProjects/widgetSemana/src/main/scala/MensagemDiaSemanaGUI.scala:38:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m38 |[0m    launch(args)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Not found: launch[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
